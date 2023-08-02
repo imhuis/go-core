@@ -1,4 +1,4 @@
-package string_type
+package string
 
 import (
 	"fmt"

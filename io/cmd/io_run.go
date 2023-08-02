@@ -1,6 +1,6 @@
 package main
 
-import ioio "learning-go/io"
+import ioio "go-core/io"
 
 func main() {
 	ioio.ReadRune()

@@ -1,4 +1,4 @@
-package string_type
+package string
 
 func HasPrefix(s string, prefix string) bool {
 	return len(s) >= len(prefix) && s[:len(prefix)] == prefix

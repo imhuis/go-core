@@ -1,8 +1,8 @@
 package main
 
 import (
-	"learning-go/complex-type/htmltemplate"
-	"learning-go/complex-type/json1"
+	"go-core/complex-type/htmltemplate"
+	"go-core/complex-type/json1"
 	"os"
 	"text/template"
 )

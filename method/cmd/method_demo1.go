@@ -1,7 +1,7 @@
 package main
 
 import (
-	"learning-go/method"
+	"go-core/method"
 )
 
 /*

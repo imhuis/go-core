@@ -5,6 +5,9 @@ import (
 	"net/http"
 )
 
+/**
+* lunch a http server.return request URL
+ */
 func main() {
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)

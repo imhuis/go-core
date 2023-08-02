@@ -1,6 +1,6 @@
 package struct_type
 
-import "learning-go/struct-type/abc"
+import "go-core/struct-type/abc"
 
 type Point struct{ X, Y int }
 

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	json2 "learning-go/complex-type/json1"
+	json2 "go-core/complex-type/json1"
 	"log"
 	"os"
 )
