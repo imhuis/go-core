@@ -4,6 +4,10 @@ import "fmt"
 
 func main() {
 
-	var intchan chan int = make(chan int, 3)
-	fmt.Printf("%T\n %v", intchan, intchan)
+}
+
+func printChan() {
+	// chan int
+	var intChan chan int = make(chan int, 3)
+	fmt.Printf("%T\n %v", intChan, intChan)
 }
