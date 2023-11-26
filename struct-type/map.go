@@ -1,8 +1,8 @@
-package main
+package struct_type
 
 import "fmt"
 
-func main2() {
+func main3() {
 	studentAge := map[string]int{
 		"bob":  21,
 		"alex": 20,
@@ -16,7 +16,3 @@ func main2() {
 	fmt.Println(age, exist)
 
 }
-
-//func init() map[string]int {
-//
-//}

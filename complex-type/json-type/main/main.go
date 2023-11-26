@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	json2 "go-core/complex-type/json1"
+	json2 "go-core/complex-type/json-type"
 	"log"
 	"os"
 )
@@ -22,12 +22,12 @@ var movies = []json2.Movie{
 }
 
 func main() {
-	//data1, err := json1.Marshal(movies)
+	//data1, err := json-type.Marshal(movies)
 	//if err != nil {
 	//	log.Fatalf("Could not marshal: %s", err)
 	//}
 	//
-	//data2, err := json1.MarshalIndent(movies, "", "    ")
+	//data2, err := json-type.MarshalIndent(movies, "", "    ")
 	//fmt.Printf("%s\n", data1)
 	//fmt.Printf("%s\n", data2)
 

@@ -5,30 +5,6 @@ import (
 	"time"
 )
 
-func demo1() {
-	naturals := make(chan int)
-	squares := make(chan int)
-
-	go func() {
-		for x := 0; ; x++ {
-			time.Sleep(2 * time.Second)
-			naturals <- x
-		}
-	}()
-
-	go func() {
-		for {
-			x := <-naturals
-			squares <- x * x
-		}
-	}()
-
-	for {
-		println(<-squares)
-	}
-}
-
-// 拆分
 func Counter(out chan<- int) {
 	for x := 0; x < 100; x++ {
 		time.Sleep(1 * time.Second)
@@ -50,10 +26,19 @@ func Printer(in <-chan int) {
 	}
 }
 
-func demo2() {
-	//naturals := make(chan int)
-	//squares := make(chan int)
-	//go goroutine.Counter(naturals)
-	//go goroutine.Squarer(squares, naturals)
-	//goroutine.Printer(squares)
+// count a fib number
+func spinner(delay time.Duration) {
+	for {
+		for _, r := range `-\|/` {
+			fmt.Printf("\r%c", r)
+			time.Sleep(delay)
+		}
+	}
+}
+
+func fib(n int) int {
+	if n < 2 {
+		return n
+	}
+	return fib(n-1) + fib(n-2)
 }

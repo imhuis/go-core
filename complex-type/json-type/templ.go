@@ -1,4 +1,4 @@
-package json1
+package json_type
 
 const (
 	templ = `

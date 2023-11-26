@@ -1,4 +1,4 @@
-package main
+package struct_type
 
 import "fmt"
 
@@ -17,7 +17,7 @@ func fibonacci(n int) []int {
 	return nums
 }
 
-func main() {
+func run() {
 	var num int
 
 	fmt.Print("What's the Fibonacci sequence you want? ")

@@ -27,6 +27,6 @@ func getUserInfo(id int) (*User, error) {
 }
 
 type User struct {
-	UserID   int64  `json1:"user_id"`
-	UserName string `json1:"user_name"`
+	UserID   int64  `json-type:"user_id"`
+	UserName string `json-type:"user_name"`
 }

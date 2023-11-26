@@ -13,9 +13,9 @@ type Employee struct {
 	Dob        time.Time
 	Position   string
 	Salary     float64
-	PersonInfo Person `json1:"person"`
+	PersonInfo Person `json-type:"person"`
 	Organization
-	EmployID int64 `json1:"employ_id"`
+	EmployID int64 `json-type:"employ_id"`
 }
 
 type Organization struct {
@@ -23,10 +23,10 @@ type Organization struct {
 }
 
 type Person struct {
-	ID        int    `json1:"id"`
-	FirstName string `json1:"first_name"`
-	LastName  string `json1:"last_name"`
-	Address   string `json1:"address"`
+	ID        int    `json-type:"id"`
+	FirstName string `json-type:"first_name"`
+	LastName  string `json-type:"last_name"`
+	Address   string `json-type:"address"`
 }
 
 type Employee1 struct {
