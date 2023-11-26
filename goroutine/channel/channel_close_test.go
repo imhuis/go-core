@@ -9,3 +9,10 @@ func Example_ChanClose() {
 	// 0
 	// 0
 }
+
+func Example_ChanCloseOK() {
+	chanCloseOK()
+	// Output:
+	// 1 true
+	// 0 false
+}

@@ -9,6 +9,7 @@ func helloChan(done chan bool) {
 	done <- true
 }
 
+// 所有goroutine都会在main goroutine结束时结束
 func main() {
 	done := make(chan bool)
 	//go hello()
