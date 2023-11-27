@@ -9,6 +9,10 @@ import "fmt"
 type People struct {
 }
 
+type Teacher struct {
+	People
+}
+
 func (p *People) ShowA() {
 	fmt.Println("student showA")
 	p.ShowB()
@@ -16,10 +20,6 @@ func (p *People) ShowA() {
 
 func (p *People) ShowB() {
 	fmt.Println("student showB")
-}
-
-type Teacher struct {
-	People
 }
 
 func (t *Teacher) ShowB() {

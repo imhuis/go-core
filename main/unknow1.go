@@ -15,7 +15,7 @@ func exec(name string, vs ...query) string {
 	return <-ch
 }
 
-func main1() {
+func main() {
 
 	ret := exec("987654321", func(s string) string {
 		return s + "func11"

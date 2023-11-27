@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// panic: sync: WaitGroup is reused before previous Wait has returned
+// panic: sync-pkg: WaitGroup is reused before previous Wait has returned
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(1)
