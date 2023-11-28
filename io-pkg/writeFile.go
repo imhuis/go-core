@@ -1,4 +1,4 @@
-package ioio
+package io_pkg
 
 import (
 	"fmt"

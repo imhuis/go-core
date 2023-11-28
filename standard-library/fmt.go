@@ -1,4 +1,4 @@
-package main
+package standard_library
 
 import (
 	"fmt"
@@ -8,6 +8,6 @@ const (
 	PI = 3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214
 )
 
-func main() {
+func printPI() {
 	fmt.Printf("%v, %10.8f, %e", PI, PI, PI)
 }
