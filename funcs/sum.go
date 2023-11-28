@@ -5,6 +5,14 @@ import (
 	"strconv"
 )
 
+func Squares() func() int {
+	var x int
+	return func() int {
+		x++
+		return x * x
+	}
+}
+
 func summ(a, b string) (result int) {
 	int1, _ := strconv.Atoi(a)
 	int2, _ := strconv.Atoi(b)
