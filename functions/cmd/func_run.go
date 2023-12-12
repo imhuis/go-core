@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"go-core/funcs"
+	"go-core/functions"
 )
 
 func main() {
-	f := funcs.Squares()
+	f := functions.Squares()
 	fmt.Println(f())
 	fmt.Println(f())
 	fmt.Println(f())

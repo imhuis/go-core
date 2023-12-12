@@ -1,10 +1,4 @@
-package main
-
-//package main
-
-func main() {
-
-}
+package complex_type
 
 // 数组归零
 func zero(ptr [32]byte) {

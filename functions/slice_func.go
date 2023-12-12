@@ -1,4 +1,4 @@
-package funcs
+package functions
 
 // 变长函数
 func sum(vals ...int) {
