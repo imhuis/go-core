@@ -1,4 +1,4 @@
-package method
+package sync_pkg
 
 import "sync"
 

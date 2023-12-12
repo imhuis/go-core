@@ -8,7 +8,7 @@ import (
 	测试方法的调用方式
 */
 
-func main1() {
+func main() {
 	p := method.Point{
 		X: 1,
 		Y: 2,
