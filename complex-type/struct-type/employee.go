@@ -39,9 +39,9 @@ func main2() {
 	var employee Employee = Employee{
 		PersonInfo: Person{
 			ID:        0,
-			FirstName: "abc",
+			FirstName: "external",
 			LastName:  "cba",
-			Address:   "abc",
+			Address:   "external",
 		},
 		EmployID: 0,
 	}

@@ -1,4 +1,4 @@
-package object_oriented
+package method
 
 import "fmt"
 

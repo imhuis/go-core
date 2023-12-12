@@ -19,7 +19,7 @@ func (f *Fruit) GetEnglishName() string {
 }
 
 //type IFruit interface {
-//	getName() string
+//	getName() string-type
 //}
 
 func (f *Fruit) GetName() string {

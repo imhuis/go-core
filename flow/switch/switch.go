@@ -9,8 +9,8 @@ golang中有规定， switch type 的case T1 ，类型列表只有⼀个，那�
 */
 
 func location(city string) (region string, continent string) {
-	//var region string
-	//var continent string
+	//var region string-type
+	//var continent string-type
 	switch city {
 	case "Delhi", "Hyderabad", "Mumbai", "Chennai", "Kochi":
 		region, continent = "India", "Asia"

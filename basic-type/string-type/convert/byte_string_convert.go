@@ -5,7 +5,7 @@ import (
 )
 
 /**
-*string(bytes)
+*string-type(bytes)
 *[]byte(str) 性能不佳
  */
 

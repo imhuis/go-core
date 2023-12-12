@@ -32,8 +32,8 @@ func Example_reflect() {
 	// output:
 	//Type: reflect.Fruit, <reflect.Fruit Value>
 	//point Type: *reflect.Fruit
-	//name:Name - type:string
-	//name:EnglishName - type:string
+	//name:Name - type:string-type
+	//name:EnglishName - type:string-type
 }
 
 func Test_struct(t *testing.T) {

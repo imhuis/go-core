@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	struct_type "go-core/struct-type"
+	"go-core/complex-type/struct-type"
 	"time"
 )
 
