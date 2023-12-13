@@ -1,4 +1,4 @@
-package standard_library
+package fmt
 
 func Example_PrintPI() {
 	printPI()
